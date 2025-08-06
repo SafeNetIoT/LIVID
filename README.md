@@ -36,3 +36,29 @@ LIVID/
 └── comparison/                  # comparison with existing work
 
 ```
+
+## Partial Results
+<table>
+  <tr>
+    <td align="center">
+      <img src="figure/model_overall.png" alt="model performance" width="500"/><br>
+      <em>Model accuracy, drift, and unknown rate over time.</em>
+    </td>
+    <td align="center">
+      <img src="figure/model_comparison_withxpot.png" alt="xpot integration" width="500"/><br>
+      <em>Performance with new traffic. The shaded area indicates the integration of the internal honeypot.</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="figure/ip_activity.png" alt="ip activity" width="500"/><br>
+      <em>Cumulative request patterns for representative 5 IPs across different attacker behavioral categories.</em>
+    </td>
+    <td align="center">
+      <img src="figure/feature_drift.png" alt="feature drift" width="500"/><br>
+      <em>Evolution of unique HTTP sequence patterns</em>
+    </td>
+  </tr>
+</table>
+
+## Acknowledgement
